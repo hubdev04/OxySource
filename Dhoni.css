@@ -19,8 +19,8 @@ body{
 .navbar li{
     float: right;
     list-style: none;
-    padding: 3px 3px;
-    margin: 4px 40px;
+    padding: 4px 4px;
+    margin: 5px 40px;
 }
 .navbar li a{
     padding: 3px 3px;
