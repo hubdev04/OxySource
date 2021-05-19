@@ -1,0 +1,81 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    outline: none; 
+    font-family: 'roboto', sans-serif; 
+} 
+body{ 
+    background-image: url('3.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.welcome{ 
+    color: #8ed6f5; padding-top: 2px; padding-left: 35%; 
+    font-size: x-large; 
+} 
+.box{ 
+    position: absolute; top: 45%; left: 50%; 
+    transform: translate(-50%,-50%); background: rgba(0, 0, 0, 0.69); 
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    padding: 45px; 
+    border-radius: 15px;
+    
+} 
+.title{ 
+    color: #c5ecfd; 
+    text-align: center; 
+} 
+
+   
+ 
+.button{ 
+    color: white; 
+    background: none;
+    width: 105px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 3px solid whitesmoke;
+    margin-left: 110px;
+    font-size: 23px;
+
+    
+}
+
+
+
+.button:hover{
+    background: white;
+    color: black;
+    width: 125px;
+    height: 55px;
+}
+.data{
+    display: flex; 
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    width: 90%;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    height:30px;
+    border: 2px solid whitesmoke;
+    color: white;
+    font-size: 25px;
+
+}
+::placeholder{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.sing_in_txt{
+    padding-left: 85px;
+    color: white;
+}
+.sing_in_txt a{
+    color: #c5ecfd;
+}
+
