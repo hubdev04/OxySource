@@ -3,6 +3,9 @@
 *{
     /* background-color: rgb(171, 228, 228); */
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     /* height: 100%; */
@@ -15,25 +18,26 @@ body{
     
    
 }
-.navbar{
+/*.navbar{
     background-color: aqua;
     font-size: larger;
     margin-left: 820px;
 }
 .navbar ul{
     overflow: hidden;
+    margin-right: 30px;
 }
-.navbar li{
+.navbar ul li{
     float: right;
     list-style: none;
     padding: 3px 3px;
     margin: 4px 40px;
     
-}
-.navbar li a{
+}*/
+/*.navbar li a{
     padding: 3px 3px;
     /* text-decoration: none; */
-    color: rgb(5, 2, 36);
+   /* color: rgb(5, 2, 36);
     font-size:large;
     cursor: pointer;
     text-decoration: none;
@@ -46,7 +50,7 @@ body{
     display: block;
     
     color: black;
-}
+}*/
 .up{
     top:50px;
     left: 15%;
@@ -105,4 +109,92 @@ body{
     color: black;
     border: none;
 }*/
+.buynow{
+    display: flex;
+
+}
+.btn1{
+    width: 50%;
+}
+.buynowbtn1{
+    border-radius: 20px;
+    color: #052E16;
+    background: none;
+    width: 100px;
+    border: 2px solid rgb(4, 75, 75);
+    margin-left: 550px;
+   
+
+}
+.btn2{
+    width: 50%;
+}
+.buynowbtn2{
+    border-radius: 20px;
+    color: #052E16;
+    background: none;
+    width: 100px;
+    border: 2px solid rgb(4, 75, 75);
+    margin-right: 650px;
+
+}
+nav{
+    background-color: aqua;
+
+}
+nav ul{
+    float: right ;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+nav ul li{
+    
+    display: inline-block;
+    margin: 0px 5px;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    line-height: 70px;
+    padding: 8px 15px;
+}
+nav ul li a:hover{
+    background-color: aqua;
+    color: white;
+
+}
+nav ul ul{
+    position: absolute;
+    top:70px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .2s;
+}  
+nav ul li:hover >ul{
+    opacity: 1;
+    visibility: visible;
+    top:70px;
+
+}
+nav ul ul li a:hover{
+    background-color: transparent;
+    
+}
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width:150px;
+    float:none;
+    height: 40px;
+    display:list-item;
+    
+    
+    
+}
+
+
 
