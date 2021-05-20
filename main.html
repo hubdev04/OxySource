@@ -7,34 +7,62 @@
     </title>
     <link rel="stylesheet" href="main.css">
     <link type="image/jpg" rel="shortcut icon" href="6.jpg">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     
 </head>
 
 <body>
-  <header>
+  <nav>
+    
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li>
+        <a href="#">City</a>
+        <ul>
+          <li><a href="#Agra">Agra</a></li>
+          <li><a href="#Aligarh">Aligarh</a></li>
+          <li><a href="#Azamgarh">Azamgarh</a></li>\
+          <li><a href="#Balia">Balia</a></li>
+          <li><a href="#Bareilly">Bareilly</a></li>
+          <li><a href="#Basti">Basti</a></li>
+          <li><a href="#Deoriya">Deoriya</a></li>
+          <li><a href="#Faizabad">Faizabad</a></li>
+        </ul>
+      </li>
+      <li><a href="#">about us</a></li>
+      <li><a href="#">contact us</a></li>
+    </ul>
+  </nav>
+  
+  <!--<div>
     <div class="navbar">
       <ul>
         <li> <a href="#">Contact Us</a></li>
         <li> <a href="#">About</a></li>
-        <li> <a href="#">City</a>
-          <div class="dropdown">
-            <ul class="dropdown-menu">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">JavaScript</a></li>
-            </ul>
-          </div>  
-        </li>
+        <li><a href="#">City</a></li>
+        
         <li> <a href="#">Home</a></li>
       </ul>
     </div>
-  </header>
+  </div>-->
     <br>
     <div class="x1">OxySource</div>
     <div class="x2">Lungs of Uttar Pradesh</div>
+    <br>
+    <!--<div class="drop">
+      <lable class="cityselector">choose your city</lable>
+      <br> 
+      <select class="select" name = "dropdown"> 
+        <option value = "1" selected>azamgarh</option> 
+        <option value = "2">aligarh</option> 
+        <option value = "3">barelly</option> 
+        <option value = "4">jalaun</option> 
+        <option value = "5">kanpur</option> 
+      </select> 
+      <br>
+    </div>-->
     <br>
     <div class="up">
         <img src="up2.png" height="500px" width="auto">
@@ -45,46 +73,58 @@
     <br>
 
     <h2 class="x3">Cities with letter 'A'</h2>
-<fieldset>
-    <legend class="districts">Azamgarh</legend>
-    <table class="table table-hover">
-        <thead>
-          <tr>
-            <th scope="col">Serial No.</th>
-            <th scope="col">Dealer Name</th>
-            <th scope="col">Phone</th>
-            <th scope="col">Address</th>
-            
-            
-          </tr>
-        </thead>
-        <tbody >
-          <tr>
-            <th scope="row">1</th>
-            <td>Paliwal Pharma</td>
-            <td>09651099508</td>
-            <td>Mau Rd, Sidhari, Azamgarh, Uttar Pradesh 276001</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Soumya Medical And Surgical Store</td>
-            <td>08004713637</td>
-            <td>Billariya Ki Chungi, Azamgarh, Uttar Pradesh 276001</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td >Azamgarh Machinery Store</td>
-            <td>09889452919</td>
-            <td>Dalsingar, Asifganj, near Water Tank, Azamgarh, Uttar Pradesh 276001</td>
-          </tr>
-        </tbody>
-    </table>
-    
-    
-</fieldset>
+    <fieldset>
+      <legend class="districts" id="Agra">Agra</legend>
+      <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Serial No.</th>
+              <th scope="col">Dealer Name</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Address</th>
+              
+              
+            </tr>
+          </thead>
+          <tbody >
+            <tr>
+              <th scope="row">1</th>
+              <td>M/S Agra Medical Gas Centre-V</td>
+              <td>0562 226 1716</td>
+              <td> L-3-111, Shaheed Nagar Rd, Chanderi, Shaheed Nagar, Tajganj, Agra</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>M/S Lifeline Surgicals & Medical Equipments-V</td>
+              <td>8755061739</td>
+              <td>15/350, Noori Gate Rd, Raja ki Mandi, Crossing, Agra</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td >M/s Oxygen Concentrator Rent Agra</td>
+              <td>--</td>
+              <td>Agra Airport Gate, West Arjun Nagar, Agra,</td>
+            </tr>
+          </tbody>
+      </table>
+      
+      
+  </fieldset>
+  <div class="buynow">
+    <div class="btn1">
+      <a href="https://www.justdial.com/Agra/Oxygen-Concentrator-Dealers/nct-10346735">
+        <button class="buynowbtn1">BUY NOW</button>
+      </a>
+    </div>
+    <div class="btn2"></div>
+      <a href="https://dir.indiamart.com/search.mp?ss=oxygen+concnetrators+in+agra&prdsrc=1&mcatid=5653&catid=190&cq=agra&cq_src=mcat">
+        <button class="buynowbtn2">BUY NOW</button>
+      </a>
+    </div>  
+  </div> 
 <br>
 <fieldset>
-    <legend class="districts">Aligarh</legend>
+    <legend class="districts"id="Aligarh">Aligarh</legend>
     <table class="table table-hover">
         <thead>
           <tr>
@@ -120,10 +160,72 @@
     
     
 </fieldset>
+<div class="buynow">
+  <div class="btn1">
+    <a href="https://www.justdial.com/Aligarh/Oxygen-Concentrator-Dealers/nct-10346735">
+      <button class="buynowbtn1">BUY NOW</button>
+    </a>
+  </div>
+  <div class="btn2"></div>
+    <a href="https://www.indiamart.com/proddetail/everflo-oxygen-concentrator-5672492548.html">
+      <button class="buynowbtn2">BUY NOW</button>
+    </a>
+  </div>  
+</div> 
 <br>
-<h2 class="x3">Cities with letter 'B'</h2>
+
 <fieldset>
-    <legend class="districts">Bareilly</legend>
+  <legend class="districts" id="Azamgarh">Azamgarh</legend>
+  <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Serial No.</th>
+          <th scope="col">Dealer Name</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Address</th>
+          
+          
+        </tr>
+      </thead>
+      <tbody >
+        <tr>
+          <th scope="row">1</th>
+          <td>Paliwal Pharma</td>
+          <td>09651099508</td>
+          <td>Mau Rd, Sidhari, Azamgarh, Uttar Pradesh 276001</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Soumya Medical And Surgical Store</td>
+          <td>08004713637</td>
+          <td>Billariya Ki Chungi, Azamgarh, Uttar Pradesh 276001</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td >Azamgarh Machinery Store</td>
+          <td>09889452919</td>
+          <td>Dalsingar, Asifganj, near Water Tank, Azamgarh, Uttar Pradesh 276001</td>
+        </tr>
+      </tbody>
+  </table>
+  
+  
+</fieldset>
+<div class="buynow">
+  <div class="btn1">
+    <a href="https://www.justdial.com/Azamgarh/Oxygen-Concentrator-Dealers/nct-10346735">
+      <button class="buynowbtn1">BUY NOW</button>
+    </a>
+  </div>
+  <div class="btn2"></div>
+    <a href="https://trade.indiamart.com/details.mp?offer=58144070495">
+      <button class="buynowbtn2">BUY NOW</button>
+    </a>
+  </div>  
+</div> 
+<h2 class="x3" id="Jalaun">Cities with letter 'B'</h2>
+<fieldset>
+    <legend class="districts" id="Balia">Balia</legend>
     <table class="table table-hover">
         <thead>
           <tr>
@@ -138,33 +240,187 @@
         <tbody >
           <tr>
             <th scope="row">1</th>
-            <td>M/S Bareilly Ortho Care Centre</td>
-            <td>7947384304</td>
-            <td>Tiwari Market, Anand Ashram Road-Civil Lines, Civil Lines, Bareilly</td>
+            <td>S.P CITY HOSPITAL</td>
+            <td>+919208001567</td>
+            <td> Vishunipur, Agrawal Surgical Gali, Ballia City, Ballia - 277001, </td>
             
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>M/S Subham Surgical Centre & Oxygen Pipeline 
+            <td>M/S Manshi Healthcare
             </td>
-            <td>7947384133</td>
-            <td>Village Malikpur, Binawer Budaun, Bareilly</td>
+            <td>+918922898938, +919919974969</td>
+            <td>207, Sahara Shopping Centre, Indira Nagar Lucknow, Lucknow - 226016, Near Lekhraj Metro Station</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td >M/s Waris Traders </td>
-            <td>07906238332</td>
-            <td>No 137 B, Aqub Kotwali, Old Shastri Market, Pin Code-243001, Bareilly</td>
+            <td >District Hospital Ayodhya(Verified) </td>
+            <td>--</td>
+            <td>Civil Line Rikabganj Rd, Lajpat Nagar, Faizabad, Uttar Pradesh 224001</td>
           </tr>
         </tbody>
     </table>
     
     
 </fieldset>
-<br>
-<h2 class="x3">Cities with letter 'J'</h2>
+<div class="buynow">
+  <div class="btn1">
+    <a href="#">
+      <button class="buynowbtn1">BUY NOW</button>
+    </a>
+  </div>
+  <div class="btn2"></div>
+    <a href="#">
+      <button class="buynowbtn2">BUY NOW</button>
+    </a>
+  </div>  
+</div> 
 <fieldset>
-    <legend class="districts">Jalaun</legend>
+  <legend class="districts" id="Bareilly">Bareilly</legend>
+  <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Serial No.</th>
+          <th scope="col">Dealer Name</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Address</th>
+          
+          
+        </tr>
+      </thead>
+      <tbody >
+        <tr>
+          <th scope="row">1</th>
+          <td>M/S Bareilly Ortho Care Centre</td>
+          <td>7947384304</td>
+          <td>Tiwari Market, Anand Ashram Road-Civil Lines, Civil Lines, Bareilly</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>M/S Subham Surgical Centre & Oxygen Pipeline 
+          </td>
+          <td>7947384133</td>
+          <td>Village Malikpur, Binawer Budaun, Bareilly</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td >M/s Waris Traders </td>
+          <td>07906238332</td>
+          <td>No 137 B, Aqub Kotwali, Old Shastri Market, Pin Code-243001, Bareilly</td>
+        </tr>
+      </tbody>
+  </table>
+  
+  
+</fieldset>
+<div class="buynow">
+  <div class="btn1">
+    <a href="https://www.indiamart.com/arkray-medical-equipments/oxygen-concentrator.html">
+      <button class="buynowbtn1">BUY NOW</button>
+    </a>
+  </div>
+  <div class="btn2"></div>
+    <a href="https://www.justdial.com/Bareilly/Oxygen-Concentrator-Dealers/nct-10346735">
+      <button class="buynowbtn2">BUY NOW</button>
+    </a>
+  </div>  
+</div> 
+<fieldset>
+  <legend class="districts" id="Basti">Basti</legend>
+  <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Serial No.</th>
+          <th scope="col">Dealer Name</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Address</th>
+          
+          
+        </tr>
+      </thead>
+      <tbody >
+        <tr>
+          <th scope="row">1</th>
+          <td>District Hospital Basti </td>
+          <td>--</td>
+          <td>Alinagar Marg, Murlijot, Basti</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Sunrise Gases And Medical Asesirese
+          </td>
+          <td>Offline</td>
+          <td>Pach Pedia, Khiri Ghat, Uttar Pradesh </td>
+        </tr>
+        
+      </tbody>
+  </table>
+  
+  
+</fieldset>
+<div class="buynow">
+  <div class="btn1">
+    <a href="#">
+      <button class="buynowbtn1">BUY NOW</button>
+    </a>
+  </div>
+  <div class="btn2"></div>
+    <a href="#">
+      <button class="buynowbtn2">BUY NOW</button>
+    </a>
+  </div>  
+</div> 
+<h2 class="x3">Cities with letter 'D'</h2>
+<fieldset>
+  <legend class="districts" id="Deoriya">Deoriya</legend>
+  <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Serial No.</th>
+          <th scope="col">Dealer Name</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Address</th>
+          
+          
+        </tr>
+      </thead>
+      <tbody >
+        <tr>
+          <th scope="row">1</th>
+          <td>Ganga Machinery Stores</td>
+          <td>099187 08239</td>
+          <td>Civil Line Road, Raghav Nagar, Deoria</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Sigma Electricals</td>
+          <td>088962 18273</td>
+          
+          <td> Near hdfc ATM salempur road deoria, Deoria</td>
+        </tr>
+       
+      </tbody>
+  </table>
+  
+  
+</fieldset>
+<div class="buynow">
+  <div class="btn1">
+    <a href="#">
+      <button class="buynowbtn1">BUY NOW</button>
+    </a>
+  </div>
+  <div class="btn2"></div>
+    <a href="#">
+      <button class="buynowbtn2">BUY NOW</button>
+    </a>
+  </div>  
+</div> 
+<h2 class="x3">Cities with letter 'F'</h2>
+<fieldset>
+    <legend class="districts" id="Faizabad">Faizabad</legend>
     <table class="table table-hover">
         <thead>
           <tr>
@@ -179,24 +435,45 @@
         <tbody >
           <tr>
             <th scope="row">1</th>
-            <td>BUNDELKHAND HOSPITAL</td>
-            <td>05164-274015</td>
-            <td>NEAR-KALPI KOTWALI, STATION ROAD, KALPI, KALPI, Jalaun, Jalaun</td>
+            <td> Manshi Healthcare</td>
+            <td>8922898938</td>
+            <td>207, Sahara Shopping Centre, Indira Nagar Lucknow</td>
             
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jalaun Government Hospital
+            <td>District Hospital Ayodhya(Verified)
             </td>
-            <td>05168 223 543</td>
-            <td>Bus Stand Rd; Dev Nagar Chauraha; Churkhibal; Jalaun</td>
+            <td>--</td>
+            <td>Line Rikabganj Rd, Lajpat Nagar, Faizabad</td>
           </tr>
-          
+          <tr>
+            <th scope="row">2</th>
+            <td>Sardar Refrigeration 
+            </td>
+            <td>919415188214</td>
+            <td>near Kotwali, Jamunia Bagh, Narendra Dev Nagar, Faizabad</td>
+          </tr>
         </tbody>
     </table>
     
     
 </fieldset>
+<div class="buynow">
+  <div class="btn1">
+    <a href="https://www.justdial.com/Faizabad/Oxygen-Concentrator-Dealers/nct-10346735">
+      <button class="buynowbtn1">BUY NOW</button>
+    </a>
+  </div>
+  <div class="btn2"></div>
+    <a href="https://trade.indiamart.com/details.mp?offer=58087689946">
+      <button class="buynowbtn2">BUY NOW</button>
+    </a>
+  </div>  
+</div> 
+
+
+
 
 <div class="pagination">
   
