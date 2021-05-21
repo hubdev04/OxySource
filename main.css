@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 *{
     /* background-color: rgb(171, 228, 228); */
@@ -66,7 +67,7 @@ body{
 .x2{
     color: rgb(5, 2, 36);
     font-size: 25px;
-    margin-left: 58%;
+    margin-left: 60%;
     margin-top: 0px;
 }
 .x3{
@@ -79,6 +80,7 @@ body{
 
 .pagination{
     margin-left: 36%;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .pagination a {
@@ -115,12 +117,14 @@ body{
 }
 .btn1{
     width: 50%;
+
 }
 .buynowbtn1{
     border-radius: 20px;
     color: #052E16;
     background: none;
-    width: 100px;
+    width: 130px;
+    
     border: 2px solid rgb(4, 75, 75);
     margin-left: 550px;
    
@@ -133,7 +137,7 @@ body{
     border-radius: 20px;
     color: #052E16;
     background: none;
-    width: 100px;
+    width: 130px;
     border: 2px solid rgb(4, 75, 75);
     margin-right: 650px;
 
@@ -195,6 +199,112 @@ nav ul ul li{
     
     
 }
+.container{
+    max-width: 1170px;
+    /* background-color: rgb(255, 0, 0);  */
+    margin: auto;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-row  ul{
+    list-style: none;
+}
 
+ 
+.footer{
+    background-color: #303233;
+    padding: 70px 0;
+    
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+  
+  }
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff80;
+    margin-bottom: 35px;
+    font-weight: bolder;
+    position: relative;
+    font-size: 30px;
+   /* background-color: rgb(9, 9, 27);*/
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+   background-color: #e91e63;
+    box-sizing: border-box;
+    width:50px ;
+    
+}
+  
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.25s ease;
+  
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    /*background-color: rgba(255, 255, 255,0.2);*/
+    margin-right: 10px;
+    border-radius: 50px;
+  
+}
+.social-links i{
+    margin-left:12px ;
+    margin-top: 10px;
+    font-size: 25px;
+   
+}
+.facebook:hover {
+    background:#4267B2;
+    
+}
+.twitter:hover{
+    background:#1DA1F2;
+}
+.instagram:hover{
+   /* background: #E1306C ;*/
+   background: #d6249f;
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+.linkedin:hover{
+   background:  #0e76a8 ;
+  
+}
+.facebook:hover i{
+    color: white;
+}
+.twitter:hover i{
+    color: white;
+}
+.linkedin:hover i{
+    color:white;
+}
+.instagram:hover i{
+    color: white;
+}
 
 
