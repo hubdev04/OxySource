@@ -1,0 +1,74 @@
+body{
+    /* height: 100%; */
+    background-image: linear-gradient(aqua, white);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+   
+}
+.img1{
+    height: 450px;
+    width:  690px;
+    
+}
+/*.box{
+    width: 280px;
+    margin: 100px auto;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px gray;
+}
+.box .faq{
+    background-color: rgb(255, 230, 0) ;
+    border-radius: 8px 8px 0px 0px;
+    padding: 12px;
+    text-align: center;
+
+}
+.img{
+    margin-left: -115px;
+}
+.faqs{
+    padding-left: 10px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.faq:hover{
+    color: white;
+
+}
+details{
+    background-color: rgb(189, 183, 183);
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+    
+
+}
+details summary{
+    outline: none;
+}
+*/
+summary{
+    font-size: 33px;
+}
+.faq{
+    text-indent: 50px;
+    font-size: 55px;
+}
+.faqs{
+    padding-left: 10px;
+    line-height: 22px;
+}
+details .text{
+    font-weight: bolder;
+    font-size: 27px;
+}
+details{
+    margin-bottom: 22px;
+}
+.img1{
+    border-radius: 3px;
+    border: 3px solid black;
+}
