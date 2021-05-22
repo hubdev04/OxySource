@@ -288,3 +288,11 @@ nav ul ul li{
 .instagram:hover i{
     color: white;
 }
+.email:hover{
+    background: rgb(238, 19, 19);
+}
+.email:hover i{
+    color:white
+
+}
+
